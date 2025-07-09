@@ -10,11 +10,11 @@ const About = () => {
           src="/general/pflanze_heller.svg"
           alt=""
           className="absolute -top-10 -left-10 w-32 h-32 opacity-60"
-          animate={{ 
+          animate={{
             rotate: [0, 5, -5, 0],
             scale: [1, 1.05, 1]
           }}
-          transition={{ 
+          transition={{
             duration: 8,
             repeat: Infinity,
             ease: "easeInOut"
@@ -24,11 +24,11 @@ const About = () => {
           src="/general/pflanze_dunkler.svg"
           alt=""
           className="absolute -bottom-10 -right-10 w-24 h-24 opacity-60"
-          animate={{ 
+          animate={{
             rotate: [0, -5, 5, 0],
             scale: [1, 1.05, 1]
           }}
-          transition={{ 
+          transition={{
             duration: 8,
             repeat: Infinity,
             ease: "easeInOut",
@@ -46,8 +46,8 @@ const About = () => {
             Über <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-6 lg:h-8 align-middle mx-2" />
           </h2>
           <p className="text-lg lg:text-xl text-slolingo-secondaryText font-apfel max-w-3xl mx-auto">
-            Ein innovatives Projekt zur Förderung der Zweisprachigkeit zwischen 
-            Deutschland und Slowenien.
+            Ein innovatives Projekt zur Förderung der Zweisprachigkeit zwischen
+            Österreich und Slowenien.
           </p>
         </motion.div>
 
@@ -66,12 +66,12 @@ const About = () => {
               </h3>
                             <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed mb-3 lg:mb-4">
                 <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-3 align-middle mx-1" /> wurde entwickelt, um Kindern spielerisch die Grundlagen
-                der deutschen und slowenischen Sprache zu vermitteln. Durch 
-                interaktive Geschichten und Übungen wird das Lernen zu einem 
+                der deutschen und slowenischen Sprache zu vermitteln. Durch
+                interaktive Geschichten und Übungen wird das Lernen zu einem
                 spannenden Abenteuer.
               </p>
               <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed">
-                Die App fördert nicht nur die Sprachkenntnisse, sondern auch 
+                Die App fördert nicht nur die Sprachkenntnisse, sondern auch
                 das kulturelle Verständnis zwischen beiden Ländern.
               </p>
             </div>
@@ -113,7 +113,7 @@ const About = () => {
               <h3 className="text-xl lg:text-2xl font-apfel-medium text-slolingo-primaryText mb-4 lg:mb-6">
                 Partner & Unterstützung
               </h3>
-              
+
               <div className="space-y-4 lg:space-y-6">
                 <div className="flex items-center space-x-3 lg:space-x-4">
                   <div className="w-12 h-12 lg:w-16 lg:h-16 bg-slolingo-skyBlue rounded-full flex items-center justify-center">
@@ -167,7 +167,7 @@ const About = () => {
                 </h4>
               </div>
               <p className="text-sm lg:text-body text-slolingo-secondaryText">
-                <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-3 align-middle mx-1" /> ist ein Open-Source-Projekt, das mit viel Liebe und 
+                <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-3 align-middle mx-1" /> ist ein Open-Source-Projekt, das mit viel Liebe und
                 Engagement für die Förderung der Zweisprachigkeit entwickelt wurde.
               </p>
             </div>
@@ -180,4 +180,4 @@ const About = () => {
   )
 }
 
-export default About 
+export default About
