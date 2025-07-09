@@ -85,16 +85,13 @@ const About = () => {
                   <div className="w-2 h-2 bg-slolingo-green rounded-full"></div>
                   <span>Kinder im Grundschulalter (6-12 Jahre)</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-slolingo-skyBlue rounded-full"></div>
-                  <span>Eltern, die ihre Kinder zweisprachig erziehen möchten</span>
-                </li>
+
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-slolingo-lightPink rounded-full"></div>
-                  <span>Lehrkräfte in bilingualen Schulen</span>
+                  <span>Lehrkräfte für den Schulunterricht</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  <div className="w-2 h-2 bg-slolingo-goldenYellow rounded-full"></div>
+                  <div className="w-2 h-2 bg-slolingo-paleGreen rounded-full"></div>
                   <span>Sprachinteressierte aller Altersgruppen</span>
                 </li>
               </ul>
@@ -159,18 +156,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="card">
-              <div className="flex items-center space-x-3 mb-3 lg:mb-4">
-                <Heart size={20} className="text-slolingo-orange lg:w-6 lg:h-6" />
-                <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
-                  Made with Love
-                </h4>
-              </div>
-              <p className="text-sm lg:text-body text-slolingo-secondaryText">
-                <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-3 align-middle mx-1" /> ist ein Open-Source-Projekt, das mit viel Liebe und
-                Engagement für die Förderung der Zweisprachigkeit entwickelt wurde.
-              </p>
-            </div>
+
           </motion.div>
         </div>
 
