@@ -51,15 +51,17 @@ const Download = () => {
                     <img src="/apple.svg" alt="Apple" className="w-8 h-8" />
                     <div className="text-left">
                       <div className="text-xs text-gray-600">Download on the</div>
-                      <div className="text-sm font-apfel-medium">App Store</div>
+                      <div className="text-lg font-apfel-medium">App Store</div>
                     </div>
                   </button>
                   <div className="text-center mt-3">
-                    <QRCodeComponent 
-                      value="https://apps.apple.com/app/slolingo" 
-                      size={240}
-                      className="mx-auto"
-                    />
+                    <div className="bg-white rounded-2xl p-4 shadow-lg inline-block">
+                      <QRCodeComponent 
+                        value="https://apps.apple.com/app/slolingo" 
+                        size={120}
+                        className="mx-auto"
+                      />
+                    </div>
                   </div>
                 </div>
 
@@ -69,15 +71,17 @@ const Download = () => {
                     <img src="/google-play.svg" alt="Google Play" className="w-8 h-8" />
                     <div className="text-left">
                       <div className="text-xs text-gray-600">GET IT ON</div>
-                      <div className="text-sm font-apfel-medium">Google Play</div>
+                      <div className="text-lg font-apfel-medium">Google Play</div>
                     </div>
                   </button>
                   <div className="text-center mt-3">
-                    <QRCodeComponent 
-                      value="https://play.google.com/store/apps/details?id=com.slolingo.app" 
-                      size={240}
-                      className="mx-auto"
-                    />
+                    <div className="bg-white rounded-2xl p-4 shadow-lg inline-block">
+                      <QRCodeComponent 
+                        value="https://play.google.com/store/apps/details?id=com.slolingo.app" 
+                        size={120}
+                        className="mx-auto"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
