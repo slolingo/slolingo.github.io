@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font imports */
+@font-face {
+  font-family: 'ApfelGrotezk_Regular';
+  src: url('/fonts/ApfelGrotezk-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApfelGrotezk_Mittel';
+  src: url('/fonts/ApfelGrotezk-Mittel.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SuperCottage';
+  src: url('/fonts/SuperCottage.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Custom component styles */
+@layer components {
+  .btn-primary {
+    @apply bg-slolingo-secondary text-slolingo-primaryText font-apfel-medium px-8 py-4 rounded-slolingo-round shadow-slolingo-card hover:bg-slolingo-hover transition-all duration-200;
+  }
+  
+  .btn-secondary {
+    @apply bg-slolingo-primary text-slolingo-primaryText font-apfel-medium px-6 py-3 rounded-slolingo shadow-slolingo-card hover:bg-slolingo-selectedCardYellow transition-all duration-200;
+  }
+  
+  .card {
+    @apply bg-slolingo-primary rounded-slolingo p-6 shadow-slolingo-card;
+  }
+  
+  .gradient-bg {
+    @apply bg-gradient-slolingo;
+  }
+  
+  .text-heading {
+    @apply font-apfel text-slolingo-primaryText;
+  }
+  
+  .text-body {
+    @apply font-apfel text-slolingo-primaryText;
+  }
+}
+
+/* Global styles */
+body {
+  font-family: 'ApfelGrotezk_Regular', sans-serif;
+  color: #2D2423;
+  background-color: #FFFCEE;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #FFD966;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #FFA36C;
+}
