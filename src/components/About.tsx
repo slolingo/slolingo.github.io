@@ -43,7 +43,7 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-apfel-medium text-slolingo-primaryText mb-4">
-            Über Slolingo
+            Über <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-8 align-middle mx-2" />
           </h2>
           <p className="text-xl text-slolingo-secondaryText font-apfel max-w-3xl mx-auto">
             Ein innovatives Projekt zur Förderung der Zweisprachigkeit zwischen 
@@ -64,8 +64,8 @@ const About = () => {
               <h3 className="text-2xl font-apfel-medium text-slolingo-primaryText mb-4">
                 Unser Ziel
               </h3>
-              <p className="text-body text-slolingo-secondaryText leading-relaxed mb-4">
-                Slolingo wurde entwickelt, um Kindern spielerisch die Grundlagen 
+                            <p className="text-body text-slolingo-secondaryText leading-relaxed mb-4">
+                <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-3 align-middle mx-1" /> wurde entwickelt, um Kindern spielerisch die Grundlagen
                 der deutschen und slowenischen Sprache zu vermitteln. Durch 
                 interaktive Geschichten und Übungen wird das Lernen zu einem 
                 spannenden Abenteuer.
@@ -78,7 +78,7 @@ const About = () => {
 
             <div className="card">
               <h3 className="text-2xl font-apfel-medium text-slolingo-primaryText mb-4">
-                Für wen ist Slolingo?
+                Für wen ist <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-5 align-middle mx-1" />?
               </h3>
               <ul className="space-y-3 text-body text-slolingo-secondaryText">
                 <li className="flex items-center space-x-3">
@@ -167,29 +167,14 @@ const About = () => {
                 </h4>
               </div>
               <p className="text-body text-slolingo-secondaryText">
-                Slolingo ist ein Open-Source-Projekt, das mit viel Liebe und 
+                <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-3 align-middle mx-1" /> ist ein Open-Source-Projekt, das mit viel Liebe und 
                 Engagement für die Förderung der Zweisprachigkeit entwickelt wurde.
               </p>
             </div>
           </motion.div>
         </div>
 
-        {/* BKA Logo */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          viewport={{ once: true }}
-          className="text-center"
-        >
-          <div className="inline-block p-6 bg-white rounded-slolingo shadow-slolingo-card">
-            <img 
-              src="/images/bundeskanzleramt.png" 
-              alt="Bundeskanzleramt Österreich" 
-              className="h-16"
-            />
-          </div>
-        </motion.div>
+
       </div>
     </section>
   )

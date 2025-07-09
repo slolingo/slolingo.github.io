@@ -24,13 +24,6 @@ const Footer = () => {
                 <Mail size={20} />
                 <span>Kontakt</span>
               </a>
-              <a 
-                href="https://github.com/slolingo" 
-                className="flex items-center space-x-2 text-gray-300 hover:text-white transition-colors"
-              >
-                <Github size={20} />
-                <span>GitHub</span>
-              </a>
             </div>
           </div>
 
@@ -94,11 +87,13 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center space-x-4">
-            <img 
-              src="/images/bundeskanzleramt.png" 
-              alt="Bundeskanzleramt Österreich" 
-              className="h-8 opacity-70"
-            />
+            <div className="bg-white px-1 py-0.5 rounded border border-gray-200">
+              <img 
+                src="/bka-logos/bka-logo-ger.svg" 
+                alt="Bundeskanzleramt Österreich" 
+                className="h-8"
+              />
+            </div>
             <span className="text-sm text-gray-400">
               Gefördert vom Bundeskanzleramt Österreich
             </span>
