@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 const Features = () => {
   const features = [
     {
-      icon: '/template-icons/template-gesprache-icon.svg',
+      icon: '/template-icons/template-connect-icon.svg',
       title: 'Interaktive Geschichten',
       description: 'Spannende Geschichten mit Audio und Animationen, die das Lernen lebendig machen.',
       color: 'bg-slolingo-lightPink'
@@ -24,7 +24,7 @@ const Features = () => {
       icon: '/template-icons/template-quiz-icon.svg',
       title: 'Fortschritts-Tracking',
       description: 'Verfolge den Lernfortschritt und sammle Belohnungen für Motivation.',
-      color: 'bg-slolingo-goldenYellow'
+      color: 'bg-slolingo-orange'
     },
     {
       icon: '/template-icons/template-personen-icon.svg',
@@ -35,7 +35,7 @@ const Features = () => {
     {
       icon: '/template-icons/template-sprachen-icon.svg',
       title: 'Sicher & Werbefrei',
-      description: '100% sicher für Kinder ohne Werbung oder In-App-Käufe.',
+      description: '100% sicher für Kinder ohne Werbung, In-App-Käufe, Cookies oder Tracking.',
       color: 'bg-slolingo-paleGreen'
     }
   ]
