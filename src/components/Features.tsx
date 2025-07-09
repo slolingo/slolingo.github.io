@@ -102,7 +102,7 @@ const Features = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-apfel-medium text-slolingo-primaryText mb-4">
-            Warum Slolingo?
+            Warum <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-8 align-middle mx-2" />?
           </h2>
           <p className="text-xl text-slolingo-secondaryText font-apfel max-w-3xl mx-auto">
             Unsere App kombiniert bewährte Lernmethoden mit moderner Technologie 

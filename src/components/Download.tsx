@@ -31,7 +31,7 @@ const Download = () => {
               Jetzt herunterladen
             </h2>
             <p className="text-xl text-slolingo-secondaryText font-apfel max-w-2xl mx-auto">
-              Lade die slolingo App herunter und starte deine Sprachreise
+              Lade die <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-4 align-middle mx-1" /> App herunter und starte deine Sprachreise
             </p>
           </div>
 
