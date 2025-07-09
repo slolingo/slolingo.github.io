@@ -62,7 +62,7 @@ const Features = () => {
   }
 
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8">
+    <section className="py-8 lg:py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto relative">
         {/* Decorative plants */}
         <motion.img
@@ -99,12 +99,12 @@ const Features = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-16"
+          className="text-center mb-8 lg:mb-16"
         >
-          <h2 className="text-4xl lg:text-5xl font-apfel-medium text-slolingo-primaryText mb-4">
-            Warum <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-8 align-middle mx-2" />?
+          <h2 className="text-3xl lg:text-5xl font-apfel-medium text-slolingo-primaryText mb-4">
+            Warum <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-6 lg:h-8 align-middle mx-2" />?
           </h2>
-          <p className="text-xl text-slolingo-secondaryText font-apfel max-w-3xl mx-auto">
+          <p className="text-lg lg:text-xl text-slolingo-secondaryText font-apfel max-w-3xl mx-auto">
             Unsere App kombiniert bewährte Lernmethoden mit moderner Technologie 
             für ein optimales Spracherlebnis.
           </p>
@@ -115,23 +115,23 @@ const Features = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8"
         >
           {features.map((feature, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
-              className="card group hover:scale-105 transition-transform duration-300"
+              className="card group hover:scale-105 transition-transform duration-300 p-4 lg:p-6"
             >
-              <div className={`w-16 h-16 ${feature.color} rounded-full flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                <img src={feature.icon} alt="" className="w-8 h-8" />
+              <div className={`w-12 h-12 lg:w-16 lg:h-16 ${feature.color} rounded-full flex items-center justify-center mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300`}>
+                <img src={feature.icon} alt="" className="w-6 h-6 lg:w-8 lg:h-8" />
               </div>
               
-              <h3 className="text-xl font-apfel-medium text-slolingo-primaryText mb-4">
+              <h3 className="text-lg lg:text-xl font-apfel-medium text-slolingo-primaryText mb-3 lg:mb-4">
                 {feature.title}
               </h3>
               
-              <p className="text-body text-slolingo-secondaryText leading-relaxed">
+              <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed">
                 {feature.description}
               </p>
             </motion.div>
