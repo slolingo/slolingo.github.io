@@ -13,27 +13,27 @@ const Hero = () => {
             className="space-y-6 lg:space-y-8 order-2 lg:order-1"
           >
             <div className="space-y-3 lg:space-y-4">
-              <motion.h1 
+              <motion.h1
                 className="text-3xl sm:text-4xl lg:text-6xl font-apfel-medium text-slolingo-primaryText leading-tight"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Lerne <span className="text-slolingo-orange">slovenisch</span> oder <span className="text-slolingo-orange">deutsch</span> spielerisch
+                Lerne <span className="text-slolingo-orange">slowenisch</span> oder <span className="text-slolingo-orange">deutsch</span> spielerisch
               </motion.h1>
-              
-              <motion.p 
+
+              <motion.p
                 className="text-lg lg:text-xl text-slolingo-secondaryText font-apfel leading-relaxed"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                Die interaktive Lern-App für Kinder, die durch Geschichten und Übungen 
+                Die interaktive Lern-App für Kinder, die durch Geschichten und Übungen
                 spielerisch Slowenisch und Deutsch lernen.
               </motion.p>
             </div>
 
-            <motion.div 
+            <motion.div
               className="flex flex-row gap-3 lg:gap-4 justify-center"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -46,7 +46,7 @@ const Hero = () => {
                   <div className="text-sm lg:text-sm font-apfel-medium">App Store</div>
                 </div>
               </button>
-              
+
               <button className="bg-white text-black px-6 py-3 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-1 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200 w-auto lg:w-auto">
                 <img src="/google-play.svg" alt="Google Play" className="w-8 h-8 lg:w-8 lg:h-8" />
                 <div className="text-left">
@@ -57,7 +57,7 @@ const Hero = () => {
             </motion.div>
 
             {/* Features preview */}
-            <motion.div 
+            <motion.div
               className="flex flex-wrap items-center gap-4 lg:gap-8 pt-4 lg:pt-8"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -90,11 +90,11 @@ const Hero = () => {
               src="/general/foot_steps.svg"
               alt=""
               className="absolute -bottom-10 -left-10 lg:-bottom-20 lg:-left-20 w-48 h-48 lg:w-96 lg:h-96 opacity-20 rotate-12"
-              animate={{ 
+              animate={{
                 rotate: [12, 15, 12],
                 opacity: [0.2, 0.3, 0.2]
               }}
-              transition={{ 
+              transition={{
                 duration: 6,
                 repeat: Infinity,
                 ease: "easeInOut"
@@ -105,25 +105,25 @@ const Hero = () => {
               src="/general/lurchi_bunt_logo.svg"
               alt="Lurchi - Slolingo Mascot"
               className="w-full max-w-sm lg:max-w-md mx-auto"
-              animate={{ 
+              animate={{
                 y: [0, -10, 0],
                 rotate: [0, 2, -2, 0]
               }}
-              transition={{ 
+              transition={{
                 duration: 4,
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
             />
-              
+
               {/* Floating elements */}
                              <motion.div
                  className="absolute -top-2 -right-2 lg:-top-4 lg:-right-4 bg-slolingo-primary rounded-full p-2 lg:p-3 shadow-slolingo-card"
-                 animate={{ 
+                 animate={{
                    scale: [1, 1.1, 1],
                    rotate: [0, 10, -10, 0]
                  }}
-                 transition={{ 
+                 transition={{
                    duration: 3,
                    repeat: Infinity,
                    ease: "easeInOut"
@@ -131,14 +131,14 @@ const Hero = () => {
                >
                  <img src="/template-icons/template-gesprache-icon.svg" alt="" className="w-4 h-4 lg:w-6 lg:h-6" />
                </motion.div>
-               
+
                <motion.div
                  className="absolute -bottom-2 -left-2 lg:-bottom-4 lg:-left-4 bg-slolingo-skyBlue rounded-full p-2 lg:p-3 shadow-slolingo-card"
-                 animate={{ 
+                 animate={{
                    scale: [1, 1.1, 1],
                    rotate: [0, -10, 10, 0]
                  }}
-                 transition={{ 
+                 transition={{
                    duration: 3,
                    repeat: Infinity,
                    ease: "easeInOut",
@@ -155,4 +155,4 @@ const Hero = () => {
   )
 }
 
-export default Hero 
+export default Hero

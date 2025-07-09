@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
-import { Link } from 'react-router-dom'
-import { Mail, Heart, Contact } from 'lucide-react'
+import { Mail, Heart } from 'lucide-react'
 
 const Footer = () => {
   return (
