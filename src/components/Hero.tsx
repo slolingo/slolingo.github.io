@@ -44,7 +44,7 @@ const Hero = () => {
                 <img src="/apple.svg" alt="Apple" className="w-8 h-8" />
                 <div className="text-left">
                   <div className="text-xs text-gray-600">Download on the</div>
-                  <div className="text-sm font-semibold">App Store</div>
+                  <div className="text-sm font-apfel-medium">App Store</div>
                 </div>
               </button>
               
@@ -52,7 +52,7 @@ const Hero = () => {
                 <img src="/google-play.svg" alt="Google Play" className="w-8 h-8" />
                 <div className="text-left">
                   <div className="text-xs text-gray-600">GET IT ON</div>
-                  <div className="text-sm font-semibold">Google Play</div>
+                  <div className="text-sm font-apfel-medium">Google Play</div>
                 </div>
               </button>
             </motion.div>
