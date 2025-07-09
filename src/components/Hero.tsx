@@ -35,21 +35,21 @@ const Hero = () => {
             </div>
 
             <motion.div 
-              className="flex flex-col sm:flex-row gap-3 lg:gap-4"
+              className="flex flex-row gap-3 lg:gap-4 justify-center"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <button className="bg-white text-black px-4 py-2 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-2 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200">
-                <img src="/apple.svg" alt="Apple" className="w-6 h-6 lg:w-8 lg:h-8" />
+              <button className="bg-white text-black px-6 py-3 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-1 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200 w-auto lg:w-auto">
+                <img src="/apple.svg" alt="Apple" className="w-8 h-8 lg:w-8 lg:h-8" />
                 <div className="text-left">
                   <div className="text-xs text-gray-600">Download on the</div>
                   <div className="text-sm lg:text-sm font-apfel-medium">App Store</div>
                 </div>
               </button>
               
-              <button className="bg-white text-black px-4 py-2 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-2 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200">
-                <img src="/google-play.svg" alt="Google Play" className="w-6 h-6 lg:w-8 lg:h-8" />
+              <button className="bg-white text-black px-6 py-3 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-1 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200 w-auto lg:w-auto">
+                <img src="/google-play.svg" alt="Google Play" className="w-8 h-8 lg:w-8 lg:h-8" />
                 <div className="text-left">
                   <div className="text-xs text-gray-600">GET IT ON</div>
                   <div className="text-sm lg:text-sm font-apfel-medium">Google Play</div>
