@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Download, Play } from 'lucide-react'
+import { Download } from 'lucide-react'
 
 const Hero = () => {
   return (
@@ -20,7 +20,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Lerne <span className="text-slolingo-orange">Slowenisch</span> und <span className="text-slolingo-orange">Deutsch</span> spielerisch
+                Lerne <span className="text-slolingo-orange">slovenisch</span> oder <span className="text-slolingo-orange">deutsch</span> spielerisch
               </motion.h1>
               
               <motion.p 
@@ -40,14 +40,20 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <button className="btn-primary flex items-center justify-center space-x-2">
-                <Download size={20} />
-                <span>App herunterladen</span>
+              <button className="bg-white text-black px-6 py-3 rounded-lg flex items-center justify-center space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200">
+                <img src="/apple.svg" alt="Apple" className="w-8 h-8" />
+                <div className="text-left">
+                  <div className="text-xs text-gray-600">Download on the</div>
+                  <div className="text-sm font-semibold">App Store</div>
+                </div>
               </button>
               
-              <button className="btn-secondary flex items-center justify-center space-x-2">
-                <Play size={20} />
-                <span>Demo ansehen</span>
+              <button className="bg-white text-black px-6 py-3 rounded-lg flex items-center justify-center space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200">
+                <img src="/google-play.svg" alt="Google Play" className="w-8 h-8" />
+                <div className="text-left">
+                  <div className="text-xs text-gray-600">GET IT ON</div>
+                  <div className="text-sm font-semibold">Google Play</div>
+                </div>
               </button>
             </motion.div>
 
