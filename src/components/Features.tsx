@@ -137,45 +137,6 @@ const Features = () => {
             </motion.div>
           ))}
         </motion.div>
-
-        {/* Language flags section */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          viewport={{ once: true }}
-          className="mt-16 text-center"
-        >
-          <h3 className="text-2xl font-apfel-medium text-slolingo-primaryText mb-8">
-            Unterstützte Sprachen
-          </h3>
-          
-          <div className="flex justify-center items-center space-x-8">
-            <div className="flex flex-col items-center space-y-2">
-              <div className="w-16 h-16 rounded-full overflow-hidden shadow-slolingo-card">
-                <img 
-                  src="/assets/flags/aut-flag-round.svg" 
-                  alt="Deutsch" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <span className="text-body font-apfel-medium">Deutsch</span>
-            </div>
-            
-            <div className="text-3xl text-slolingo-orange font-apfel-medium">+</div>
-            
-            <div className="flex flex-col items-center space-y-2">
-              <div className="w-16 h-16 rounded-full overflow-hidden shadow-slolingo-card">
-                <img 
-                  src="/assets/flags/slo-flag-round.svg" 
-                  alt="Slowenisch" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <span className="text-body font-apfel-medium">Slowenisch</span>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   )
