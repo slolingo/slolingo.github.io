@@ -27,6 +27,10 @@ function App() {
           } />
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<div className="pt-20 px-4 py-8"><h1 className="text-4xl font-apfel-medium text-slolingo-primaryText mb-8">Datenschutz</h1><p className="text-body">Datenschutzrichtlinien werden hier angezeigt...</p></div>} />
+          <Route path="/impressum" element={<div className="pt-20 px-4 py-8"><h1 className="text-4xl font-apfel-medium text-slolingo-primaryText mb-8">Impressum</h1><p className="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod, nisl eget consectetur sagittis, nisl nunc.</p></div>} />
+          <Route path="/datenschutz" element={<div className="pt-20 px-4 py-8"><h1 className="text-4xl font-apfel-medium text-slolingo-primaryText mb-8">Datenschutz</h1><p className="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod, nisl eget consectetur sagittis, nisl nunc.</p></div>} />
+          <Route path="/community-richtlinien" element={<div className="pt-20 px-4 py-8"><h1 className="text-4xl font-apfel-medium text-slolingo-primaryText mb-8">Community Richtlinien</h1><p className="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod, nisl eget consectetur sagittis, nisl nunc.</p></div>} />
+          <Route path="/agb" element={<div className="pt-20 px-4 py-8"><h1 className="text-4xl font-apfel-medium text-slolingo-primaryText mb-8">AGB</h1><p className="text-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod, nisl eget consectetur sagittis, nisl nunc.</p></div>} />
         </Routes>
         <Footer />
       </div>

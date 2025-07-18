@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { Mail, Heart } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -11,15 +12,15 @@ const Footer = () => {
             <h3 className="text-base lg:text-lg font-apfel-medium mb-3 lg:mb-4">Über uns</h3>
             <ul className="space-y-1 lg:space-y-2">
               <li>
-                <a href="#" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
+                <a href="mailto:info@slolingo.at" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
                   <Mail size={16} className="lg:w-4 lg:h-4" />
                   <span>Kontakt</span>
                 </a>
               </li>
               <li>
-                <a href="#" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
+                <Link to="/impressum" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
                   Impressum
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -29,14 +30,14 @@ const Footer = () => {
             <h3 className="text-base lg:text-lg font-apfel-medium mb-3 lg:mb-4">Apps</h3>
             <ul className="space-y-1 lg:space-y-2">
               <li>
-                <a href="#" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
+                <span className="text-sm lg:text-base text-gray-300 cursor-not-allowed opacity-60 transition-colors">
                   slolingo für Android
-                </a>
+                </span>
               </li>
               <li>
-                <a href="#" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
+                <span className="text-sm lg:text-base text-gray-300 cursor-not-allowed opacity-60 transition-colors">
                   slolingo für iOS
-                </a>
+                </span>
               </li>
             </ul>
           </div>
@@ -46,19 +47,19 @@ const Footer = () => {
             <h3 className="text-base lg:text-lg font-apfel-medium mb-3 lg:mb-4">Datenschutz und AGB</h3>
             <ul className="space-y-1 lg:space-y-2">
               <li>
-                <a href="#" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
+                <Link to="/datenschutz" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
                   Datenschutz
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
+                <Link to="/community-richtlinien" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
                   Community Richtlinien
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
+                <Link to="/agb" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
                   AGB
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
