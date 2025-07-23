@@ -30,14 +30,14 @@ const Footer = () => {
             <h3 className="text-base lg:text-lg font-apfel-medium mb-3 lg:mb-4">Apps</h3>
             <ul className="space-y-1 lg:space-y-2">
               <li>
-                <span className="text-sm lg:text-base text-gray-300 cursor-not-allowed opacity-60 transition-colors">
+                <button type="button" aria-disabled="true" tabIndex={-1} className="text-sm lg:text-base text-gray-300 cursor-not-allowed opacity-60 transition-colors bg-transparent border-none p-0 m-0">
                   slolingo für Android
-                </span>
+                </button>
               </li>
               <li>
-                <span className="text-sm lg:text-base text-gray-300 cursor-not-allowed opacity-60 transition-colors">
+                <button type="button" aria-disabled="true" tabIndex={-1} className="text-sm lg:text-base text-gray-300 cursor-not-allowed opacity-60 transition-colors bg-transparent border-none p-0 m-0">
                   slolingo für iOS
-                </span>
+                </button>
               </li>
             </ul>
           </div>
