@@ -52,11 +52,6 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/community-richtlinien" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
-                  Community Richtlinien
-                </Link>
-              </li>
-              <li>
                 <Link to="/agb" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
                   AGB
                 </Link>
