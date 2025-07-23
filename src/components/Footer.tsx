@@ -12,7 +12,7 @@ const Footer = () => {
             <h3 className="text-base lg:text-lg font-apfel-medium mb-3 lg:mb-4">Über uns</h3>
             <ul className="space-y-1 lg:space-y-2">
               <li>
-                <a href="mailto:info@slolingo.at" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
+                <a href="mailto:office@pavelhaus.at" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors flex items-center space-x-2">
                   <Mail size={16} className="lg:w-4 lg:h-4" />
                   <span>Kontakt</span>
                 </a>
@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom section */}
-        <motion.div 
+        <motion.div
           className="border-t border-gray-700 mt-6 lg:mt-8 pt-6 lg:pt-8 flex flex-col md:flex-row justify-between items-center"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -78,15 +78,15 @@ const Footer = () => {
             <Heart size={14} className="text-slolingo-orange lg:w-4 lg:h-4" />
             <span className="text-sm lg:text-base">in Österreich</span>
           </div>
-          
+
           <div className="flex items-center">
             <span className="text-xs lg:text-sm text-gray-400">
               Gefördert von
             </span>
             <div>
-              <img 
-                src="/bka-logos/bka-logo-ger.svg" 
-                alt="Bundeskanzleramt Österreich" 
+              <img
+                src="/bka-logos/bka-logo-ger.svg"
+                alt="Bundeskanzleramt Österreich"
                 className="h-6 lg:h-8"
               />
             </div>
@@ -100,4 +100,4 @@ const Footer = () => {
   )
 }
 
-export default Footer 
+export default Footer
