@@ -6,10 +6,12 @@ import Features from './components/Features'
 import Download from './components/Download'
 import About from './components/About'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-gradient-slolingo">
         <Header />
         <Routes>
