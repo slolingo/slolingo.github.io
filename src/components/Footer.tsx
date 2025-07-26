@@ -86,7 +86,7 @@ const Footer = () => {
               />
             </div>
             <span className="text-xs lg:text-sm text-gray-400">
-              Österreich
+              – Volksgruppenförderung
             </span>
           </div>
         </motion.div>

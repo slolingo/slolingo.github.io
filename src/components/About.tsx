@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Users, Globe, Award } from 'lucide-react'
+import { Users, Globe, Award, GraduationCap, Palette, Mic, Code } from 'lucide-react'
 
 const About = () => {
   return (
@@ -96,6 +96,17 @@ const About = () => {
                 </li>
               </ul>
             </div>
+            <div className="card">
+              <h3 className="text-xl lg:text-2xl font-apfel-medium text-slolingo-primaryText mb-3 lg:mb-4">
+                Didaktische Materialien & App
+              </h3>
+              <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed mb-3 lg:mb-4">
+                Im Jahr 2020 wurden in Kooperation von Mag. Susanne Weitlaner und Dr. Tatjana Vučajnk (AAU) zweisprachige Lehrmaterialien für Kinder unterschiedlichen Alters herausgegeben, die Slowenisch als Zweit- oder Fremdsprache lernen. Die Materialien eignen sich für die Arbeit mit sprachlich und altersmäßig heterogenen Gruppen und ermuntern zur Individualisierung und Binnendifferenzierung. Das didaktische Komplettset besteht aus einem zweisprachigen (slowenisch-deutschen) Lesebuch <em>Pravljisanica/Traummärchen</em> (slowenische Märchen als Comic, Bild-Lese-Text & Originaltext) und dem Handbuch für Lehrerinnen und Lehrer samt ausschneidbaren Spielkärtchen namens <em>Čebelice letijo in pravljice spregovorijo/Im Bienenflug durch Märchenwelten</em> (erhältlich unter <a href="mailto:office@pavelhaus.at" className="underline hover:text-slolingo-green">office@pavelhaus.at</a>).
+              </p>
+              <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed">
+                Die dazu entwickelte App ermöglicht es Kindern, zu Hause oder im Unterricht die Inhalte sowie den Wortschatz der slowenischen Märchen spielerisch zu festigen und zu üben. Zusätzlich gibt es Spiele, mit denen Basissprachkenntnisse trainiert werden können.
+              </p>
+            </div>
           </motion.div>
 
           {/* Team/Partners */}
@@ -106,6 +117,70 @@ const About = () => {
             viewport={{ once: true }}
             className="space-y-4 lg:space-y-6"
           >
+            <div className="card">
+              <h3 className="text-xl lg:text-2xl font-apfel-medium text-slolingo-primaryText mb-4 lg:mb-6">
+                Team & Mitwirkende
+              </h3>
+
+              <div className="space-y-4 lg:space-y-6">
+                <div className="flex items-center space-x-3 lg:space-x-4">
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-slolingo-skyBlue rounded-full flex items-center justify-center">
+                    <GraduationCap size={16} className="text-slolingo-primaryText lg:w-5 lg:h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
+                      Pädagogische Beratung & Projektleitung
+                    </h4>
+                    <p className="text-xs lg:text-sm text-slolingo-secondaryText">
+                      Mag. Susanne Weitlaner & Dr. Tatjana Vučajnk, Slowenistin
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-3 lg:space-x-4">
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-slolingo-skyBlue rounded-full flex items-center justify-center">
+                    <Palette size={16} className="text-slolingo-primaryText lg:w-5 lg:h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
+                      Illustrationen und Comics
+                    </h4>
+                    <p className="text-xs lg:text-sm text-slolingo-secondaryText">
+                      Schmidt, Matjaž & Darja Remc
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-3 lg:space-x-4">
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-slolingo-skyBlue rounded-full flex items-center justify-center">
+                    <Mic size={16} className="text-slolingo-primaryText lg:w-5 lg:h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
+                      Sprecher:innen
+                    </h4>
+                    <p className="text-xs lg:text-sm text-slolingo-secondaryText">
+                      Corina Kaufmann & Vito At
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-3 lg:space-x-4">
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-slolingo-skyBlue rounded-full flex items-center justify-center">
+                    <Code size={16} className="text-slolingo-primaryText lg:w-5 lg:h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
+                      Entwicklerteam und Gestaltung
+                    </h4>
+                    <p className="text-xs lg:text-sm text-slolingo-secondaryText">
+                      David Kerschbaumer, Valentin Edelsbrunner, Patrick Lovric, Linder Schneider, Nika Mahne
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="card">
               <h3 className="text-xl lg:text-2xl font-apfel-medium text-slolingo-primaryText mb-4 lg:mb-6">
                 Partner & Unterstützung
@@ -122,34 +197,6 @@ const About = () => {
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
                       Förderung der bilateralen Beziehungen
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-center space-x-3 lg:space-x-4">
-                  <div className="w-12 h-12 lg:w-16 lg:h-16 bg-slolingo-lightPink rounded-full flex items-center justify-center">
-                    <Award size={20} className="text-slolingo-primaryText lg:w-6 lg:h-6" />
-                  </div>
-                  <div>
-                    <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
-                      Bildungsexperten
-                    </h4>
-                    <p className="text-xs lg:text-sm text-slolingo-secondaryText">
-                      Pädagogische Beratung und Entwicklung
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-center space-x-3 lg:space-x-4">
-                  <div className="w-12 h-12 lg:w-16 lg:h-16 bg-slolingo-mintGreen rounded-full flex items-center justify-center">
-                    <Users size={20} className="text-slolingo-primaryText lg:w-6 lg:h-6" />
-                  </div>
-                  <div>
-                    <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
-                      Entwicklerteam
-                    </h4>
-                    <p className="text-xs lg:text-sm text-slolingo-secondaryText">
-                      Technische Umsetzung und Design
                     </p>
                   </div>
                 </div>
