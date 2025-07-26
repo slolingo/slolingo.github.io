@@ -188,8 +188,8 @@ const About = () => {
 
               <div className="space-y-4 lg:space-y-6">
                 <div className="flex items-center space-x-3 lg:space-x-4">
-                  <div className="w-12 h-12 lg:w-16 lg:h-16 bg-slolingo-skyBlue rounded-full flex items-center justify-center">
-                    <Globe size={20} className="text-slolingo-primaryText lg:w-6 lg:h-6" />
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-slolingo-skyBlue rounded-full flex items-center justify-center">
+                    <Globe size={16} className="text-slolingo-primaryText lg:w-5 lg:h-5" />
                   </div>
                   <div>
                     <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
