@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion'
-import { Users, Globe, Award, GraduationCap, Palette, Mic, Code } from 'lucide-react'
+import {motion} from 'framer-motion'
+import {Code, Globe, GraduationCap, Mic, Palette} from 'lucide-react'
 
 const About = () => {
   return (
