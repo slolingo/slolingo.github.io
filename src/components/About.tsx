@@ -160,7 +160,7 @@ const About = () => {
                       Sprecher:innen
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
-                      Corina Kaufmann & Vito At
+                      Corina Kaufmann & Vito Poredoš
                     </p>
                   </div>
                 </div>
