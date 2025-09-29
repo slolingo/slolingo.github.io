@@ -39,21 +39,21 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
             >
-              <button className="bg-white text-black px-6 py-3 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-1 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200 w-auto lg:w-auto">
+              <a href="https://apps.apple.com/at/app/slolingo/id6751134811?l=en-GB" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-6 py-3 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-1 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200 w-auto lg:w-auto">
                 <img src="/apple.svg" alt="Apple" className="w-8 h-8 lg:w-8 lg:h-8" />
                 <div className="text-left">
                   <div className="text-xs text-gray-600">Download on the</div>
                   <div className="text-sm lg:text-sm font-apfel-medium">App Store</div>
                 </div>
-              </button>
+              </a>
 
-              <button className="bg-white text-black px-6 py-3 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-1 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200 w-auto lg:w-auto">
+              <a href="https://play.google.com/store/apps/details?id=lurchi.slolingo&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-6 py-3 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-1 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200 w-auto lg:w-auto">
                 <img src="/google-play.svg" alt="Google Play" className="w-8 h-8 lg:w-8 lg:h-8" />
                 <div className="text-left">
                   <div className="text-xs text-gray-600">GET IT ON</div>
                   <div className="text-sm lg:text-sm font-apfel-medium">Google Play</div>
                 </div>
-              </button>
+              </a>
             </motion.div>
 
             {/* Features preview */}
