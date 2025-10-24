@@ -19,7 +19,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Lerne <span className="text-slolingo-orange">slowenisch</span> oder <span className="text-slolingo-orange">deutsch</span> spielerisch
+                Lerne <span className="text-slolingo-orange">Slowenisch</span> oder <span className="text-slolingo-orange">Deutsch</span> spielerisch
               </motion.h1>
 
               <motion.p
