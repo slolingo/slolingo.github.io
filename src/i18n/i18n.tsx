@@ -57,6 +57,22 @@ const translations: Translations = {
     'about.materials.p1': 'Im Jahr 2020 wurden in Kooperation von Mag. Susanne Weitlaner und Dr. Tatjana Vučajnk (AAU) zweisprachige Lehrmaterialien für Kinder unterschiedlichen Alters herausgegeben, die Slowenisch als Zweit- oder Fremdsprache lernen. Die Materialien eignen sich für die Arbeit mit sprachlich und altersmäßig heterogenen Gruppen und ermuntern zur Individualisierung und Binnendifferenzierung. Das didaktische Komplettset besteht aus einem zweisprachigen (slowenisch-deutschen) Lesebuch <em>Pravljisanica/Traummärchen</em> (slowenische Märchen als Comic, Bild-Lese-Text & Originaltext) und dem Handbuch für Lehrerinnen und Lehrer samt ausschneidbaren Spielkärtchen namens <em>Čebelice letijo in pravljice spregovorijo/Im Bienenflug durch Märchenwelten</em> (erhältlich unter <a href="mailto:office@pavelhaus.at" class="underline hover:text-slolingo-green">office@pavelhaus.at</a>).',
     'about.materials.p2': 'Die dazu entwickelte App ermöglicht es Kindern, zu Hause oder im Unterricht die Inhalte sowie den Wortschatz der slowenischen Märchen spielerisch zu festigen und zu üben. Zusätzlich gibt es Spiele, mit denen Basissprachkenntnisse trainiert werden können.',
 
+    // About Team
+    'about.team.title': 'Team & Mitwirkende',
+    'about.team.pedagogy.title': 'Pädagogische Beratung & Projektleitung',
+    'about.team.pedagogy.names': 'Mag. Susanne Weitlaner & Dr. Tatjana Vučajnk',
+    'about.team.illustrations.title': 'Illustrationen',
+    'about.team.illustrations.names': 'Schmidt, Matjaž & Darja Remc',
+    'about.team.speakers.title': 'Sprecher:innen',
+    'about.team.speakers.names': 'Corina Kaufmann & Vito Poredoš',
+    'about.team.devs.title': 'Entwicklerteam und Gestaltung',
+    'about.team.devs.names': 'David Kerschbaumer, Valentin Edelsbrunner, Patrick Lovric, Linda Schneider, Nika Mahne',
+
+    // Partners
+    'about.partners.title': 'Partner & Unterstützung',
+    'about.partners.bka': 'Bundeskanzleramt Österreich',
+    'about.partners.funding': 'Volksgruppenförderung',
+
     // Footer
     'footer.aboutUs': 'Über uns',
     'footer.contact': 'Kontakt',
@@ -121,6 +137,22 @@ const translations: Translations = {
     'about.materials.title': 'Didaktični materiali in aplikacija',
     'about.materials.p1': 'Leta 2020 sta mag. Susanne Weitlaner in dr. Tatjana Vučajnk (AAU) v sodelovanju izdali dvojezične učne materiale za otroke različnih starosti, ki se učijo slovenščino kot drugi ali tuji jezik. Materiali so primerni za delo z jezikovno in starostno heterogenimi skupinami ter spodbujajo individualizacijo in notranjo diferenciacijo. Celoten didaktični komplet sestavljajo dvojezična (slovensko-nemška) čitalnica <em>Pravljisanica/Traummärchen</em> (slovenske pravljice v obliki stripa, slikovnega besedila in izvirnega besedila) in priročnika za učitelje z izrezljivimi igralnimi karticami z naslovom <em>Čebelice letijo in pravljice spregovorijo/Im Bienenflug durch Märchenwelten</em> (na voljo na <a href="mailto:office@pavelhaus.at" class="underline hover:text-slolingo-green">office@pavelhaus.at</a>).',
     'about.materials.p2': 'Aplikacija, razvita za ta namen, otrokom omogoča, da doma ali v šoli na igriv način utrdijo in vadijo vsebino ter besedišče slovenskih pravljic. Poleg tega so na voljo igre, s katerimi lahko vadijo osnovno znanje jezika.',
+
+    // About Team (localized)
+    'about.team.title': 'Ekipa in sodelujoči',
+    'about.team.pedagogy.title': 'Pädagogische Beratung & Projektleitung',
+    'about.team.pedagogy.names': 'Mag. Susanne Weitlaner & Dr. Tatjana Vučajnk',
+    'about.team.illustrations.title': 'Illustrationen',
+    'about.team.illustrations.names': 'Schmidt, Matjaž & Darja Remc',
+    'about.team.speakers.title': 'Sprecher:innen',
+    'about.team.speakers.names': 'Corina Kaufmann & Vito Poredoš',
+    'about.team.devs.title': 'Entwicklerteam und Gestaltung',
+    'about.team.devs.names': 'David Kerschbaumer, Valentin Edelsbrunner, Patrick Lovric, Linda Schneider, Nika Mahne',
+
+    // Partners (localized)
+    'about.partners.title': 'Partnerji in podpora',
+    'about.partners.bka': 'Bundeskanzleramt Österreich',
+    'about.partners.funding': 'Volksgruppenförderung',
 
     'footer.aboutUs': 'O nas',
     'footer.contact': 'Kontakt',
