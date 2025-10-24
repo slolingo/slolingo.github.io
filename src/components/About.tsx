@@ -93,12 +93,8 @@ const About = () => {
               <h3 className="text-xl lg:text-2xl font-apfel-medium text-slolingo-primaryText mb-3 lg:mb-4">
                 {t('about.materials.title')}
               </h3>
-              <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed mb-3 lg:mb-4">
-                Im Jahr 2020 wurden in Kooperation von Mag. Susanne Weitlaner & Dr. Tatjana Vučajnk zweisprachige Lehrmaterialien für Kinder unterschiedlichen Alters herausgegeben, die Slowenisch als Zweit- oder Fremdsprache lernen. Die Materialien eignen sich für die Arbeit mit sprachlich und altersmäßig heterogenen Gruppen und ermuntern zur Individualisierung und Binnendifferenzierung. Das didaktische Komplettset besteht aus einem zweisprachigen (slowenisch-deutschen) Lesebuch <em>Pravljisanica/Traummärchen</em> (slowenische Märchen als Comic, Bild-Lese-Text & Originaltext) und dem Handbuch für Lehrerinnen und Lehrer samt ausschneidbaren Spielkärtchen namens <em>Čebelice letijo in pravljice spregovorijo/Im Bienenflug durch Märchenwelten</em> (erhältlich unter <a href="mailto:office@pavelhaus.at" className="underline hover:text-slolingo-green">office@pavelhaus.at</a>).
-              </p>
-              <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed">
-                Die dazu entwickelte App ermöglicht es Kindern, zu Hause oder im Unterricht die Inhalte sowie den Wortschatz der slowenischen Märchen spielerisch zu festigen und zu üben. Zusätzlich gibt es Spiele, mit denen Basissprachkenntnisse trainiert werden können.
-              </p>
+              <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed mb-3 lg:mb-4" dangerouslySetInnerHTML={{ __html: t('about.materials.p1') }} />
+              <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed" dangerouslySetInnerHTML={{ __html: t('about.materials.p2') }} />
             </div>
           </motion.div>
 
