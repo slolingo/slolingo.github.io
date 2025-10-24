@@ -196,7 +196,7 @@ const About = () => {
                       Bundeskanzleramt Österreich
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
-                      Förderung der bilateralen Beziehungen
+                      Volksgruppenförderung
                     </p>
                   </div>
                 </div>

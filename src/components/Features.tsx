@@ -23,7 +23,7 @@ const Features = () => {
     {
       icon: '/template-icons/template-quiz-icon.svg',
       title: 'Fortschritts-Tracking',
-      description: 'Verfolge den Lernfortschritt und sammle Belohnungen für Motivation.',
+      description: 'Verfolge den Lernfortschritt und sammle Belohnungen zur Motivation.',
       color: 'bg-slolingo-orange'
     },
     {
@@ -69,11 +69,11 @@ const Features = () => {
           src="/general/plants_bottom.svg"
           alt=""
           className="absolute -bottom-20 -left-20 w-64 h-64 opacity-30"
-          animate={{ 
+          animate={{
             rotate: [0, 3, -3, 0],
             scale: [1, 1.02, 1]
           }}
-          transition={{ 
+          transition={{
             duration: 10,
             repeat: Infinity,
             ease: "easeInOut"
@@ -83,11 +83,11 @@ const Features = () => {
           src="/general/right_hands.svg"
           alt=""
           className="absolute -top-20 -right-20 w-48 h-48 opacity-30"
-          animate={{ 
+          animate={{
             rotate: [0, -3, 3, 0],
             scale: [1, 1.02, 1]
           }}
-          transition={{ 
+          transition={{
             duration: 10,
             repeat: Infinity,
             ease: "easeInOut",
@@ -105,7 +105,7 @@ const Features = () => {
             Warum <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-6 lg:h-8 align-middle mx-2" />?
           </h2>
           <p className="text-lg lg:text-xl text-slolingo-secondaryText font-apfel max-w-3xl mx-auto">
-            Unsere App kombiniert bewährte Lernmethoden mit moderner Technologie 
+            Unsere App kombiniert bewährte Lernmethoden mit moderner Technologie
             für ein optimales Spracherlebnis.
           </p>
         </motion.div>
@@ -126,11 +126,11 @@ const Features = () => {
               <div className={`w-12 h-12 lg:w-16 lg:h-16 ${feature.color} rounded-full flex items-center justify-center mb-4 lg:mb-6 group-hover:scale-110 transition-transform duration-300`}>
                 <img src={feature.icon} alt="" className="w-6 h-6 lg:w-8 lg:h-8" />
               </div>
-              
+
               <h3 className="text-lg lg:text-xl font-apfel-medium text-slolingo-primaryText mb-3 lg:mb-4">
                 {feature.title}
               </h3>
-              
+
               <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed">
                 {feature.description}
               </p>
@@ -142,4 +142,4 @@ const Features = () => {
   )
 }
 
-export default Features 
+export default Features
