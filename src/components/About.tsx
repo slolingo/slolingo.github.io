@@ -101,7 +101,7 @@ const About = () => {
                 Didaktische Materialien & App
               </h3>
               <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed mb-3 lg:mb-4">
-                Im Jahr 2020 wurden in Kooperation von Mag. Susanne Weitlaner und Dr. Tatjana Vučajnk (AAU) zweisprachige Lehrmaterialien für Kinder unterschiedlichen Alters herausgegeben, die Slowenisch als Zweit- oder Fremdsprache lernen. Die Materialien eignen sich für die Arbeit mit sprachlich und altersmäßig heterogenen Gruppen und ermuntern zur Individualisierung und Binnendifferenzierung. Das didaktische Komplettset besteht aus einem zweisprachigen (slowenisch-deutschen) Lesebuch <em>Pravljisanica/Traummärchen</em> (slowenische Märchen als Comic, Bild-Lese-Text & Originaltext) und dem Handbuch für Lehrerinnen und Lehrer samt ausschneidbaren Spielkärtchen namens <em>Čebelice letijo in pravljice spregovorijo/Im Bienenflug durch Märchenwelten</em> (erhältlich unter <a href="mailto:office@pavelhaus.at" className="underline hover:text-slolingo-green">office@pavelhaus.at</a>).
+                Im Jahr 2020 wurden in Kooperation von Mag. Susanne Weitlaner & Dr. Tatjana Vučajnk zweisprachige Lehrmaterialien für Kinder unterschiedlichen Alters herausgegeben, die Slowenisch als Zweit- oder Fremdsprache lernen. Die Materialien eignen sich für die Arbeit mit sprachlich und altersmäßig heterogenen Gruppen und ermuntern zur Individualisierung und Binnendifferenzierung. Das didaktische Komplettset besteht aus einem zweisprachigen (slowenisch-deutschen) Lesebuch <em>Pravljisanica/Traummärchen</em> (slowenische Märchen als Comic, Bild-Lese-Text & Originaltext) und dem Handbuch für Lehrerinnen und Lehrer samt ausschneidbaren Spielkärtchen namens <em>Čebelice letijo in pravljice spregovorijo/Im Bienenflug durch Märchenwelten</em> (erhältlich unter <a href="mailto:office@pavelhaus.at" className="underline hover:text-slolingo-green">office@pavelhaus.at</a>).
               </p>
               <p className="text-sm lg:text-body text-slolingo-secondaryText leading-relaxed">
                 Die dazu entwickelte App ermöglicht es Kindern, zu Hause oder im Unterricht die Inhalte sowie den Wortschatz der slowenischen Märchen spielerisch zu festigen und zu üben. Zusätzlich gibt es Spiele, mit denen Basissprachkenntnisse trainiert werden können.
@@ -143,7 +143,7 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
-                      Illustrationen und Comics
+                      Illustrationen
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
                       Schmidt, Matjaž & Darja Remc
@@ -174,7 +174,7 @@ const About = () => {
                       Entwicklerteam und Gestaltung
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
-                      David Kerschbaumer, Valentin Edelsbrunner, Patrick Lovric, Linder Schneider, Nika Mahne
+                        Dipl. -Ing. David Kerschbaumer,  Dipl. -Ing. Valentin Edelsbrunner,  Dipl. -Ing. Patrick Lovric, Linda Schneider, Dr. Nika Mahne
                     </p>
                   </div>
                 </div>
