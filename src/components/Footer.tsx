@@ -19,11 +19,6 @@ const Footer = () => {
                   <span>{t('footer.contact')}</span>
                 </a>
               </li>
-              <li>
-                <Link to="/impressum" className="text-sm lg:text-base text-gray-300 hover:text-white transition-colors">
-                  {t('footer.imprint')}
-                </Link>
-              </li>
             </ul>
           </div>
 
