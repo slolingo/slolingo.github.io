@@ -1,41 +1,43 @@
 import { motion } from 'framer-motion'
+import { useI18n } from '../i18n/i18n'
 
 const Features = () => {
+  const { t } = useI18n()
   const features = [
     {
       icon: '/template-icons/template-connect-icon.svg',
-      title: 'Interaktive Geschichten',
-      description: 'Spannende Geschichten mit Audio und Animationen, die das Lernen lebendig machen.',
+      title: t('features.item.interactiveStories.title'),
+      description: t('features.item.interactiveStories.desc'),
       color: 'bg-slolingo-lightPink'
     },
     {
       icon: '/template-icons/template-advanced-icon.svg',
-      title: 'Audio-Unterstützung',
-      description: 'Hochwertige Audio-Aufnahmen für die korrekte Aussprache beider Sprachen.',
+      title: t('features.item.audio.title'),
+      description: t('features.item.audio.desc'),
       color: 'bg-slolingo-skyBlue'
     },
     {
       icon: '/template-icons/template-memory-icon.svg',
-      title: 'Spielerische Übungen',
-      description: 'Verschiedene Übungstypen wie Memory, Lückentests und Wortschatz-Spiele.',
+      title: t('features.item.games.title'),
+      description: t('features.item.games.desc'),
       color: 'bg-slolingo-mintGreen'
     },
     {
       icon: '/template-icons/template-quiz-icon.svg',
-      title: 'Fortschritts-Tracking',
-      description: 'Verfolge den Lernfortschritt und sammle Belohnungen zur Motivation.',
+      title: t('features.item.progress.title'),
+      description: t('features.item.progress.desc'),
       color: 'bg-slolingo-orange'
     },
     {
       icon: '/template-icons/template-personen-icon.svg',
-      title: 'Für Kinder entwickelt',
-      description: 'Benutzerfreundliche Oberfläche speziell für Kinder im Grundschulalter.',
+      title: t('features.item.forKids.title'),
+      description: t('features.item.forKids.desc'),
       color: 'bg-slolingo-peach'
     },
     {
       icon: '/template-icons/template-sprachen-icon.svg',
-      title: 'Sicher & Werbefrei',
-      description: '100% sicher für Kinder ohne Werbung, In-App-Käufe, Cookies oder Tracking.',
+      title: t('features.item.safe.title'),
+      description: t('features.item.safe.desc'),
       color: 'bg-slolingo-paleGreen'
     }
   ]
@@ -101,12 +103,9 @@ const Features = () => {
           viewport={{ once: true }}
           className="text-center mb-8 lg:mb-16"
         >
-          <h2 className="text-3xl lg:text-5xl font-apfel-medium text-slolingo-primaryText mb-4">
-            Warum <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-6 lg:h-8 align-middle mx-2" />?
-          </h2>
+          <h2 className="text-3xl lg:text-5xl font-apfel-medium text-slolingo-primaryText mb-4" dangerouslySetInnerHTML={{ __html: t('features.title.html') }} />
           <p className="text-lg lg:text-xl text-slolingo-secondaryText font-apfel max-w-3xl mx-auto">
-            Unsere App kombiniert bewährte Lernmethoden mit moderner Technologie
-            für ein optimales Spracherlebnis.
+            {t('features.subtitle')}
           </p>
         </motion.div>
 

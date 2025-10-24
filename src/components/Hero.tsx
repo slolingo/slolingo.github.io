@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
+import { useI18n } from '../i18n/i18n'
 
 const Hero = () => {
+  const { t } = useI18n()
   return (
     <section className="pt-8 pb-8 px-4 sm:px-6 lg:px-8 lg:pt-20 lg:pb-16">
       <div className="max-w-7xl mx-auto">
@@ -19,7 +21,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.2 }}
               >
-                Lerne <span className="text-slolingo-orange">Slowenisch</span> oder <span className="text-slolingo-orange">Deutsch</span> spielerisch
+                <span dangerouslySetInnerHTML={{ __html: t('hero.title.html') }} />
               </motion.h1>
 
               <motion.p
@@ -28,8 +30,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                Die interaktive Lern-App für Kinder, die durch Geschichten und Übungen
-                spielerisch Slowenisch und Deutsch lernen.
+                {t('hero.subtitle')}
               </motion.p>
             </div>
 
@@ -65,15 +66,15 @@ const Hero = () => {
             >
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 lg:w-3 lg:h-3 bg-slolingo-green rounded-full"></div>
-                <span className="text-sm lg:text-body">Interaktive Geschichten</span>
+                <span className="text-sm lg:text-body">{t('hero.badge.interactiveStories')}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 lg:w-3 lg:h-3 bg-slolingo-skyBlue rounded-full"></div>
-                <span className="text-sm lg:text-body">Sprachübungen</span>
+                <span className="text-sm lg:text-body">{t('hero.badge.exercises')}</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 lg:w-3 lg:h-3 bg-slolingo-lightPink rounded-full"></div>
-                <span className="text-sm lg:text-body">Für Kinder entwickelt</span>
+                <span className="text-sm lg:text-body">{t('hero.badge.forKids')}</span>
               </div>
             </motion.div>
           </motion.div>
@@ -83,13 +84,13 @@ const Hero = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="relative order-1 lg:order-2"
+            className="relative order-1 lg:order-2 overflow-hidden gpu-fix"
           >
             {/* Background foot steps */}
             <motion.img
               src="/general/foot_steps.svg"
               alt=""
-              className="absolute -bottom-10 -left-10 lg:-bottom-20 lg:-left-20 w-48 h-48 lg:w-96 lg:h-96 opacity-20 rotate-12"
+              className="absolute -bottom-10 -left-10 lg:-bottom-20 lg:-left-20 w-48 h-48 lg:w-96 lg:h-96 opacity-20 rotate-12 block gpu-fix"
               animate={{
                 rotate: [12, 15, 12],
                 opacity: [0.2, 0.3, 0.2]
@@ -100,11 +101,11 @@ const Hero = () => {
                 ease: "easeInOut"
               }}
             />
-            <div className="relative">
+            <div className="relative overflow-hidden gpu-fix">
                           <motion.img
               src="/general/lurchi_bunt_logo.svg"
               alt="Lurchi - Slolingo Mascot"
-              className="w-full max-w-sm lg:max-w-md mx-auto"
+              className="w-full max-w-sm lg:max-w-md mx-auto block gpu-fix"
               animate={{
                 y: [0, -10, 0],
                 rotate: [0, 2, -2, 0]
@@ -117,8 +118,8 @@ const Hero = () => {
             />
 
               {/* Floating elements */}
-                             <motion.div
-                 className="absolute -top-2 -right-2 lg:-top-4 lg:-right-4 bg-slolingo-primary rounded-full p-2 lg:p-3 shadow-slolingo-card"
+               <motion.div
+                className="absolute -top-2 -right-2 lg:-top-4 lg:-right-4 bg-slolingo-primary rounded-full p-2 lg:p-3 shadow-slolingo-card gpu-fix"
                  animate={{
                    scale: [1, 1.1, 1],
                    rotate: [0, 10, -10, 0]
@@ -129,11 +130,11 @@ const Hero = () => {
                    ease: "easeInOut"
                  }}
                >
-                 <img src="/template-icons/template-gesprache-icon.svg" alt="" className="w-4 h-4 lg:w-6 lg:h-6" />
+                <img src="/template-icons/template-gesprache-icon.svg" alt="" className="w-4 h-4 lg:w-6 lg:h-6 block gpu-fix" />
                </motion.div>
 
                <motion.div
-                 className="absolute -bottom-2 -left-2 lg:-bottom-4 lg:-left-4 bg-slolingo-skyBlue rounded-full p-2 lg:p-3 shadow-slolingo-card"
+                className="absolute -bottom-2 -left-2 lg:-bottom-4 lg:-left-4 bg-slolingo-skyBlue rounded-full p-2 lg:p-3 shadow-slolingo-card gpu-fix"
                  animate={{
                    scale: [1, 1.1, 1],
                    rotate: [0, -10, 10, 0]
@@ -145,7 +146,7 @@ const Hero = () => {
                    delay: 1
                  }}
                >
-                 <img src="/template-icons/template-memory-icon.svg" alt="" className="w-4 h-4 lg:w-6 lg:h-6" />
+                <img src="/template-icons/template-memory-icon.svg" alt="" className="w-4 h-4 lg:w-6 lg:h-6 block gpu-fix" />
                </motion.div>
             </div>
           </motion.div>

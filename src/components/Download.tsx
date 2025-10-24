@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion'
 import QRCodeComponent from './QRCode'
+import { useI18n } from '../i18n/i18n'
 
 const Download = () => {
+  const { t } = useI18n()
   return (
     <section className="py-8 lg:py-16 px-4 sm:px-6 lg:px-8 bg-white/50">
       <div className="max-w-7xl mx-auto relative">
@@ -28,10 +30,10 @@ const Download = () => {
         >
           <div className="text-center mb-8 lg:mb-12">
             <h2 className="text-3xl lg:text-5xl font-apfel-medium text-slolingo-primaryText mb-4">
-              Jetzt herunterladen
+              {t('download.title')}
             </h2>
             <p className="text-lg lg:text-xl text-slolingo-secondaryText font-apfel max-w-2xl mx-auto">
-              Lade die <img src="/general/slolingo_logo.svg" alt="Slolingo" className="inline h-4 align-middle mx-1" /> App herunter und starte deine Sprachreise!
+              {t('download.subtitle')}
             </p>
           </div>
 
@@ -50,8 +52,8 @@ const Download = () => {
                   <a href="https://apps.apple.com/at/app/slolingo/id6751134811?l=en-GB" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-6 py-3 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-1 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200 w-auto lg:w-auto">
                     <img src="/apple.svg" alt="Apple" className="w-8 h-8 lg:w-8 lg:h-8" />
                     <div className="text-left">
-                      <div className="text-xs text-gray-600">Download on the</div>
-                      <div className="text-sm lg:text-lg font-apfel-medium">App Store</div>
+                      <div className="text-xs text-gray-600">{t('download.apple.line1')}</div>
+                      <div className="text-sm lg:text-lg font-apfel-medium">{t('download.apple.line2')}</div>
                     </div>
                   </a>
                   <div className="text-center mt-2 lg:mt-3">
@@ -70,8 +72,8 @@ const Download = () => {
                   <a href="https://play.google.com/store/apps/details?id=lurchi.slolingo&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" className="bg-white text-black px-6 py-3 lg:px-6 lg:py-3 rounded-lg flex items-center justify-center space-x-1 lg:space-x-3 hover:bg-gray-100 transition-colors duration-200 shadow-lg border border-gray-200 w-auto lg:w-auto">
                     <img src="/google-play.svg" alt="Google Play" className="w-8 h-8 lg:w-8 lg:h-8" />
                     <div className="text-left">
-                      <div className="text-xs text-gray-600">GET IT ON</div>
-                      <div className="text-sm lg:text-lg font-apfel-medium">Google Play</div>
+                      <div className="text-xs text-gray-600">{t('download.google.line1')}</div>
+                      <div className="text-sm lg:text-lg font-apfel-medium">{t('download.google.line2')}</div>
                     </div>
                   </a>
                   <div className="text-center mt-2 lg:mt-3">

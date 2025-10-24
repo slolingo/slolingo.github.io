@@ -49,6 +49,13 @@
   .text-body {
     @apply font-apfel text-slolingo-primaryText;
   }
+
+  /* Fix hairline/blinking artifacts on transformed images in some browsers */
+  .gpu-fix {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    will-change: transform;
+  }
 }
 
 /* Global styles */
