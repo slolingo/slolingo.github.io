@@ -108,7 +108,7 @@ const About = () => {
           >
             <div className="card">
               <h3 className="text-xl lg:text-2xl font-apfel-medium text-slolingo-primaryText mb-4 lg:mb-6">
-                Team & Mitwirkende
+                {t('about.team.title')}
               </h3>
 
               <div className="space-y-4 lg:space-y-6">
@@ -118,10 +118,10 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
-                      Pädagogische Beratung & Projektleitung
+                      {t('about.team.pedagogy.title')}
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
-                      Mag. Susanne Weitlaner & Dr. Tatjana Vučajnk, Slowenistin
+                      {t('about.team.pedagogy.names')}
                     </p>
                   </div>
                 </div>
@@ -132,10 +132,10 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
-                      Illustrationen
+                      {t('about.team.illustrations.title')}
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
-                      Schmidt, Matjaž & Darja Remc
+                      {t('about.team.illustrations.names')}
                     </p>
                   </div>
                 </div>
@@ -146,10 +146,10 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
-                      Sprecher:innen
+                      {t('about.team.speakers.title')}
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
-                      Corina Kaufmann & Vito Poredoš
+                      {t('about.team.speakers.names')}
                     </p>
                   </div>
                 </div>
@@ -160,10 +160,10 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
-                      Entwicklerteam und Gestaltung
+                      {t('about.team.devs.title')}
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
-                        Dipl. -Ing. David Kerschbaumer,  Dipl. -Ing. Valentin Edelsbrunner,  Dipl. -Ing. Patrick Lovric, Linda Schneider, Dr. Nika Mahne
+                        {t('about.team.devs.names')}
                     </p>
                   </div>
                 </div>
@@ -172,7 +172,7 @@ const About = () => {
 
             <div className="card">
               <h3 className="text-xl lg:text-2xl font-apfel-medium text-slolingo-primaryText mb-4 lg:mb-6">
-                Partner & Unterstützung
+                {t('about.partners.title')}
               </h3>
 
               <div className="space-y-4 lg:space-y-6">
@@ -182,10 +182,10 @@ const About = () => {
                   </div>
                   <div>
                     <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
-                      Bundeskanzleramt Österreich
+                      {t('about.partners.bka')}
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
-                      Volksgruppenförderung
+                      {t('about.partners.funding')}
                     </p>
                   </div>
                 </div>
