@@ -147,11 +147,11 @@ const translations: Translations = {
       'about.team.illustrations.title': 'Illustrationen',
       'about.team.illustrations.names': 'Matjaž Schmidt & Darja Remc',
       'about.team.speakers.title': 'Sprecher:innen',
-      'about.team.speakers.names': 'Corina Kaufmann & Vito Poredoš',
+      'about.team.speakers.names': 'MA Corina Kaufmann & Mag. Vito Poredoš',
       'about.team.devs.title': 'Entwicklerteam',
       'about.team.devs.names': 'DI Valentin Edelsbrunner, DI Patrick Lovric, DI David Kerschbaumer',
       'about.team.contentDesign.title': 'Inhalt und Gestaltung',
-      'about.team.contentDesign.names': 'BA Linda Schneider, Dr. Nika Mahne, Marina Mahne',
+      'about.team.contentDesign.names': 'BA Linda Schneider, Dr. Nika Mahne, Mag. Marina Mahne',
 
     // Partners (localized)
     'about.partners.title': 'Partnerji in podpora',
