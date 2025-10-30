@@ -62,11 +62,13 @@ const translations: Translations = {
     'about.team.pedagogy.title': 'Pädagogische Beratung & Projektleitung',
     'about.team.pedagogy.names': 'Mag. Susanne Weitlaner & Dr. Tatjana Vučajnk',
     'about.team.illustrations.title': 'Illustrationen',
-    'about.team.illustrations.names': 'Schmidt, Matjaž & Darja Remc',
+    'about.team.illustrations.names': 'Matjaž Schmidt & Darja Remc',
     'about.team.speakers.title': 'Sprecher:innen',
     'about.team.speakers.names': 'Corina Kaufmann & Vito Poredoš',
-    'about.team.devs.title': 'Entwicklerteam und Gestaltung',
-    'about.team.devs.names': 'David Kerschbaumer, Valentin Edelsbrunner, Patrick Lovric, Linda Schneider, Nika Mahne',
+    'about.team.devs.title': 'Entwicklerteam',
+    'about.team.devs.names': 'DI Valentin Edelsbrunner, DI Patrick Lovric, DI David Kerschbaumer',
+    'about.team.contentDesign.title': 'Inhalt und Gestaltung',
+    'about.team.contentDesign.names': 'BA Linda Schneider, Dr. Nika Mahne, Marina Mahne',
 
     // Partners
     'about.partners.title': 'Partner & Unterstützung',
@@ -140,14 +142,16 @@ const translations: Translations = {
 
     // About Team (localized)
     'about.team.title': 'Ekipa in sodelujoči',
-    'about.team.pedagogy.title': 'Pädagogische Beratung & Projektleitung',
-    'about.team.pedagogy.names': 'Mag. Susanne Weitlaner & Dr. Tatjana Vučajnk',
-    'about.team.illustrations.title': 'Illustrationen',
-    'about.team.illustrations.names': 'Schmidt, Matjaž & Darja Remc',
-    'about.team.speakers.title': 'Sprecher:innen',
-    'about.team.speakers.names': 'Corina Kaufmann & Vito Poredoš',
-    'about.team.devs.title': 'Entwicklerteam und Gestaltung',
-    'about.team.devs.names': 'David Kerschbaumer, Valentin Edelsbrunner, Patrick Lovric, Linda Schneider, Nika Mahne',
+      'about.team.pedagogy.title': 'Pädagogische Beratung & Projektleitung',
+      'about.team.pedagogy.names': 'Mag. Susanne Weitlaner & Dr. Tatjana Vučajnk',
+      'about.team.illustrations.title': 'Illustrationen',
+      'about.team.illustrations.names': 'Matjaž Schmidt & Darja Remc',
+      'about.team.speakers.title': 'Sprecher:innen',
+      'about.team.speakers.names': 'Corina Kaufmann & Vito Poredoš',
+      'about.team.devs.title': 'Entwicklerteam',
+      'about.team.devs.names': 'DI Valentin Edelsbrunner, DI Patrick Lovric, DI David Kerschbaumer',
+      'about.team.contentDesign.title': 'Inhalt und Gestaltung',
+      'about.team.contentDesign.names': 'BA Linda Schneider, Dr. Nika Mahne, Marina Mahne',
 
     // Partners (localized)
     'about.partners.title': 'Partnerji in podpora',

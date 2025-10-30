@@ -1,6 +1,6 @@
 import {motion} from 'framer-motion'
 import { useI18n } from '../i18n/i18n'
-import {Code, Globe, GraduationCap, Mic, Palette} from 'lucide-react'
+import {Code, Globe, GraduationCap, Mic, Palette, Layout} from 'lucide-react'
 
 const About = () => {
   const { t } = useI18n()
@@ -155,7 +155,7 @@ const About = () => {
                 </div>
 
                 <div className="flex items-center space-x-3 lg:space-x-4">
-                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-slolingo-skyBlue rounded-full flex items-center justify-center">
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-slolingo-skyBlue rounded-full flex items-center justify-center shrink-0">
                     <Code size={16} className="text-slolingo-primaryText lg:w-5 lg:h-5" />
                   </div>
                   <div>
@@ -164,6 +164,20 @@ const About = () => {
                     </h4>
                     <p className="text-xs lg:text-sm text-slolingo-secondaryText">
                         {t('about.team.devs.names')}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="flex items-center space-x-3 lg:space-x-4">
+                  <div className="w-10 h-10 lg:w-12 lg:h-12 bg-slolingo-skyBlue rounded-full flex items-center justify-center">
+                    <Layout size={16} className="text-slolingo-primaryText lg:w-5 lg:h-5" />
+                  </div>
+                  <div>
+                    <h4 className="font-apfel-medium text-slolingo-primaryText text-sm lg:text-base">
+                      {t('about.team.contentDesign.title')}
+                    </h4>
+                    <p className="text-xs lg:text-sm text-slolingo-secondaryText">
+                      {t('about.team.contentDesign.names')}
                     </p>
                   </div>
                 </div>
